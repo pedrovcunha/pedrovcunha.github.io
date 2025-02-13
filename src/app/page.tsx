@@ -2,19 +2,17 @@
 
 import { EarthScene } from "./ui/3d/earth";
 import { TypeAnimation } from 'react-type-animation';
+import styles from './page.module.css';
+
 
 export default function Home() {
   return (
       <div id="root" style={{ height: "90vh", width: "100vw" }}>
         <EarthScene />
-        <footer>
+        <footer className={styles.footer}>
           <TypeAnimation
             sequence={[
-              'Pedro Cunha',
-              1000,
-              'Software Developer',
-              1000,
-              'Problem Solver',
+              'Software Development',
               1000,
               'Driven by innovation',
               1000
@@ -23,8 +21,9 @@ export default function Home() {
             speed={50}
             repeat={Infinity}
             style={{ display: 'inline-block' }}
+            className={styles.silkscreen}
           />
-          <blockquote>
+          <blockquote className={styles.roboto}>
             <p>You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. You're on your own. And you know what you know. And you are the guy who'll decide where to go. — Dr. Seuss</p>
           </blockquote>
         </footer>

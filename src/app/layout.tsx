@@ -1,9 +1,15 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Roboto, Silkscreen } from "next/font/google";
 import "./globals.css";
 
 const roboto = Roboto({
     variable: "--font-roboto",
+    subsets: ["latin"],
+    weight: ["400", "700"],
+});
+
+const silkscreen = Silkscreen({
+    variable: "--font-silkscreen",
     subsets: ["latin"],
     weight: ["400", "700"],
 });
@@ -20,7 +26,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body suppressHydrationWarning className={`${roboto.variable} antialiased`}>
+            <body suppressHydrationWarning className={`${silkscreen.variable} antialiased ${roboto.variable} antialiased`}>
                 {children}
             </body>
         </html>
