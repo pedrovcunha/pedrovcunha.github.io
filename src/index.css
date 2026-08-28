@@ -317,11 +317,6 @@ a:focus-visible, button:focus-visible {
 }
 .showcase h2 { font-size: 1.5rem; color: var(--amber-600); }
 .showcase p { color: var(--ink-soft); max-width: 52ch; }
-.showcase__soon {
-  font-family: var(--font-mono);
-  font-size: 13px;
-  color: var(--amber-600);
-}
 
 /* ---------- footer ---------- */
 .footer {

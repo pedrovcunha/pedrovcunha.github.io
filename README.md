@@ -48,6 +48,6 @@ Every subsequent push to `main` redeploys automatically — no manual build/uplo
 
 ## Known open items
 
-- The Showcase section currently reads "Live demo coming soon" — the existing 3D graph
-  project still needs to be migrated in (or rebuilt) and linked once it has a real home.
+- The Showcase section links to `/earth-ed`, which isn't deployed yet — that project needs
+  to land at that path (its own repo/workflow) before the link resolves.
 - Fonts (Fraunces, Work Sans, JetBrains Mono) load from Google Fonts at runtime.
