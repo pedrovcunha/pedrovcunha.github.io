@@ -48,6 +48,4 @@ Every subsequent push to `main` redeploys automatically — no manual build/uplo
 
 ## Known open items
 
-- The Showcase section links to `/earth-ed`, which isn't deployed yet — that project needs
-  to land at that path (its own repo/workflow) before the link resolves.
 - Fonts (Fraunces, Work Sans, JetBrains Mono) load from Google Fonts at runtime.

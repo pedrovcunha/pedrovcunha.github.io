@@ -12,7 +12,7 @@ export default function Showcase() {
                     An interactive 3D graph explorer &mdash; built for the joy
                     of bending JavaScript into shapes, not for a client.
                 </p>
-                <a className="btn btn--primary" href="/earth-ed">
+                <a className="btn btn--primary" href="/earth-3d">
                     Explore the 3D graph &rarr;
                 </a>
             </div>
